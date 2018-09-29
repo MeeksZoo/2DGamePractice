@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+[RequireComponent(typeof(BoxCollider))]
 public class Draggable : MonoBehaviour
 {
 	private Vector3 myPosition;
